@@ -26,7 +26,7 @@ module tt_um_exp_prng_lfsr (
       .NUM_SEGMENTS(64),
       .U_WID(6),
       .X_WID(16)
-  )(
+  ) exp_prng_lut_design (
       .clk_i(clk),
       .rst_i(!rst_n),
       .prng_o(result)
